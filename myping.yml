@@ -1,4 +1,5 @@
-- hosts: all
+- hosts: localhost
   tasks:
   - name: ping
-    win_ping:
+    debug:
+      msg: "hi hello"
